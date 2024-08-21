@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enregistrement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulaire d'enregistrement</h1>
+        <form id="registration-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" required>
+
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" required>
+
+            <button type="submit">Enregistrer</button>
+        </form>
+
+        <h2>Données enregistrées :</h2>
+        <ul id="data-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
